@@ -1,0 +1,29 @@
+# Python environment and generated files
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.scrapy/
+
+# Data and output files
+data/
+output/
+*.csv
+*.xlsx
+*.xls
+*.json
+*.jsonl
+*.log
+
+# Secret information and environment variables
+.env
+.env.*
+!.env.example
+
+# IDE and editor specific files
+*.rar
+*.zip
+.vscode/
+.idea/
+
+!sample/sample_output.csv
